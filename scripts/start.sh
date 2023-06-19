@@ -1,6 +1,6 @@
 #!/bin/bash
 nomeApp="helloreact"
-cd /appdir
+cd appdir
 npm install
 
 sudo supervisord
