@@ -1,6 +1,6 @@
 #!/bin/bash
 nomeApp="helloreact"
-cd appdir
+cd /appdir
 
 sudo supervisord
 sudo supervisorctl start $nomeApp
