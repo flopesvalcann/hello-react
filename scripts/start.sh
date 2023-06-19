@@ -3,5 +3,5 @@ nomeApp="helloreact"
 cd appdir
 
 sudo supervisord
-sudo supervisorctl start nomeApp
+sudo supervisorctl start $nomeApp
 
