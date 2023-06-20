@@ -1,4 +1,6 @@
 #!/bin/bash
+
+app = "helloreact"
 cd /appdir
-sudo supervisorctl start all
+sudo supervisorctl start $app
 
