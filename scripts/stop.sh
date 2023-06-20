@@ -1,4 +1,3 @@
 #!/bin/bash
-nomeApp="helloreact"
 
-sudo supervisorctl stop $nomeApp
+sudo supervisorctl stop all
