@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo supervisorctl stop "helloreact"
+app = "helloreact"
+sudo supervisorctl stop $app
