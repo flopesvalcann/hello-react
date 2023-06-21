@@ -1,6 +1,6 @@
 #!/bin/bash
 
-app = "helloreact"
+app="helloreact"
 cd /appdir
 npm install
 
